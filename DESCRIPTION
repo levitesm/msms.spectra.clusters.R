@@ -1,0 +1,11 @@
+Package: msms.spectra.clusters
+Title: MSMS Spectra clustering and spectral libraries creation.
+Version: 0.0.0.9000
+Authors@R: c(person("Mark", "Levites", role = c("aut", "cre"), email =  "levitesm@gmail.com"))
+Author: Mark Levites
+Description: This package allows you to create spectral libraries from the .mgf files by clustering spectra according to their similarity. You need to prepare the MGF object form the .mgf file using the PrepareMgf function. Then you Create a library from mgf. After that you can add identifications for you library, and new MGFs to it, get the FDR table for the clusters, and check the similarity between different clusters (getClustersSimilarity) to look for PTMs(getModif).
+Depends: R (>= 3.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
